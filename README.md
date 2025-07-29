@@ -79,8 +79,3 @@ python main.py >> log.txt 2>&1
 This project is licensed under the MIT License. Feel free to use, modify, and distribute.
 
 ---
-
-```
-
-If you’d like, I can also help you generate a badge-style header (with Python version, license, etc.) or prepare it for publishing to GitHub. Just say the word, Captain! ⚓
-```
