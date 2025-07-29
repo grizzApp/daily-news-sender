@@ -15,10 +15,6 @@ Great, Captain! Here's a revised `README.md` in **English**, reflecting that you
 - Supports scheduled execution (e.g. via PythonAnywhere Tasks)
 - Simple modular structure
 
-```
-<pre> <details> <summary>📁 <strong>Project Structure</strong></summary> ```text daily-news-sender/ ├── .env # 🔒 Environment variables (excluded via .gitignore) ├── .gitignore # 📄 Ignore rules for venv/, pycache/, .env, tests/, etc. ├── README.md # 📘 Project documentation ├── main.py # 🚀 Main script to fetch news and send email ├── requirements.txt # 📦 Python dependencies ├── app/ # 🧠 Core application logic │ ├── __init__.py │ ├── body.py # 📝 HTML body generator for emails │ ├── config.py # 🔧 Config: API keys, SMTP creds │ ├── news_fetcher.py # 🌐 NewsAPI fetching logic (async) │ └── utils.py # 🛠️ Text cleaner, email sender └── tests/ # 🧪 Test files (ignored via .gitignore) └── __init__.py ``` </details> </pre>
-```
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
