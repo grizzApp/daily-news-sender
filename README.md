@@ -27,7 +27,7 @@ cd daily-news-sender
 ### 2. Create and Activate Virtual Environment
 
 ```bash
-python -m venv venv
+python -m venv venv / python3 -m venv venv
 source venv/bin/activate
 ```
 
