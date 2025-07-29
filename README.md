@@ -22,7 +22,7 @@ Great, Captain! Here's a revised `README.md` in **English**, reflecting that you
 ```bash
 git clone https://github.com/grizzApp/daily-news-sender.git
 cd daily-news-sender
-````
+```
 
 ### 2. Create and Activate Virtual Environment
 
