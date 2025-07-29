@@ -20,7 +20,7 @@ Great, Captain! Here's a revised `README.md` in **English**, reflecting that you
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/daily-news-sender.git
+git clone https://github.com/grizzApp/daily-news-sender.git
 cd daily-news-sender
 ````
 
