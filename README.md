@@ -19,19 +19,19 @@ Great, Captain! Here's a revised `README.md` in **English**, reflecting that you
 ```
 
 daily-news-sender/
-│
-├── .env # Environment variables (DO NOT push to Git)
-├── .gitignore # Excludes venv/, **pycache**/, tests/, etc.
-├── main.py # Main execution script
-├── requirements.txt # Python dependencies
-├── README.md # This documentation
-│
-├── app/
+├── .env # 🔒 Environment variables (excluded in .gitignore)
+├── .gitignore # 📄 Ignore rules: venv/, **pycache**/, .env, tests/, etc.
+├── README.md # 📘 Project documentation
+├── main.py # 🚀 Main script to fetch news and send email
+├── requirements.txt # 📦 Python dependencies
+├── app/ # 🧠 Core application logic
 │ ├── **init**.py
-│ ├── body.py # Email content generator
-│ ├── config.py # Configuration and secrets
-│ ├── news_fetcher.py # News fetching logic (via NewsAPI)
-│ ├── utils.py # Utility functions (text cleaner, email sender)
+│ ├── body.py # 📝 HTML body generator for emails
+│ ├── config.py # 🔧 API keys, endpoints (reads from .env)
+│ ├── news_fetcher.py # 🌐 Async NewsAPI fetch logic
+│ └── utils.py # 🛠️ Helper: text cleaner, email sender
+└── tests/ # 🧪 (Optional) Unit test folder (ignored for now)
+└── **init**.py
 
 ````
 
