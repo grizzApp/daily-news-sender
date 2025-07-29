@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ### 4. Set Environment Variables
 
-Create a `.venv` file with the following:
+Create a `.env` file with the following:
 
 ```
 NEWS_API_KEY=your_newsapi_key
