@@ -15,7 +15,22 @@ Great, Captain! Here's a revised `README.md` in **English**, reflecting that you
 - Supports scheduled execution (e.g. via PythonAnywhere Tasks)
 - Simple modular structure
 
-<pre> <code> ## 🗂 Project Structure ``` daily-news-sender/ ├── .env # 🔐 Environment variables (excluded in .gitignore) ├── .gitignore # 📄 Ignore rules: venv/, pycache/, .env, tests/, etc. ├── README.md # 📘 Project documentation ├── main.py # 🚀 Main script to fetch news and send email ├── requirements.txt # 📦 Python dependencies ├── app/ # 🍥 Core application logic │ ├── __init__.py │ ├── body.py # 📝 HTML body generator for emails │ ├── config.py # 🛠 API keys, endpoints (reads from .env) │ ├── news_fetcher.py # 🌐 Async NewsAPI fetch logic │ └── utils.py # 🧹 Helper: text cleaner, email sender └── tests/ # 🧪 (Optional) Unit test folder (ignored for now) └── __init__.py ``` </code> </pre>
+```
+daily-news-sender/
+├── .env # 🔒 Environment variables (excluded in .gitignore)
+├── .gitignore # 📄 Ignore rules: venv/, **pycache**/, .env, tests/, etc.
+├── README.md # 📘 Project documentation
+├── main.py # 🚀 Main script to fetch news and send email
+├── requirements.txt # 📦 Python dependencies
+├── app/ # 🧠 Core application logic
+│ ├── **init**.py
+│ ├── body.py # 📝 HTML body generator for emails
+│ ├── config.py # 🔧 API keys, endpoints (reads from .env)
+│ ├── news_fetcher.py # 🌐 Async NewsAPI fetch logic
+│ └── utils.py # 🛠️ Helper: text cleaner, email sender
+└── tests/ # 🧪 (Optional) Unit test folder (ignored for now)
+└── **init**.py
+```
 
 ## 🚀 Getting Started
 
