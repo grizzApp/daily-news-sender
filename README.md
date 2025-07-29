@@ -74,8 +74,4 @@ python main.py >> log.txt 2>&1
 - Logs are appended to `log.txt` for debugging.
 - Ensure correct timezone settings when scheduling.
 
-## 📜 License
-
-This project is licensed under the MIT License. Feel free to use, modify, and distribute.
-
 ---
